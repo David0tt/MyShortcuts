@@ -34,7 +34,7 @@ or
 
 
 ## Requirements
-- to use these, `wmctrl` needs to be installed (`sudoa apt install wmctrl`)
+- to use these, `wmctrl` needs to be installed (`sudo apt install wmctrl`)
 - to use cursor, it is assumed that the AppImage (from the official download) is under `~/bin/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage`
 
 # how to set shortcuts: 
