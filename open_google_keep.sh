@@ -1,3 +1,5 @@
 #!/bin/bash
 
-firefox https://keep.google.com &
+firefox https://keep.google.com
+
+wmctrl -a "Mozilla Firefox"
