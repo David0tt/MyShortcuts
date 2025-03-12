@@ -8,8 +8,9 @@ A repository to host useful shortcuts / hotkeys that improve my daily use
 - `ctrl+shift+alt+j` open google docs with research idea notes on robot arm
 - `ctrl+shift+alt+c` open ChatGPT
 - 
-- `ctrl+shift+alt+w` open VSCode. If it is already open, switch focus
-- `ctrl+shift+alt+e` open Cursor. If it is already open, switch focus
+- `ctrl+shift+alt+w` open VSCode. If it is already open, switch focus (ignores VSCode with the note workspace, i.e. switches focus to a different VSCode or opens a new one)
+- (`ctrl+shift+alt+e` open Cursor. If it is already open, switch focus)
+- `ctrl+shift+alt+n` open VSCode with the notes workspace. If it is already open, switch focus
 - `ctrl+shift+alt+z` open Zotero. If it is already open, switch focus
 
 
