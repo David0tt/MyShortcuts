@@ -16,13 +16,8 @@ A repository to host useful shortcuts / hotkeys that improve my daily use
 - `ctrl+shift+alt+z` open Zotero. If it is already open, switch focus
 
 
-Set the hotkeys under `Settings -> Keyboard Shortcuts -> Add`. 
-Set the command to e.g. 
 
-    /home/ott/Nextcloud/MyShortcuts/open_chatgpt.sh
-
-Name them e.g. "Firefox open Google Keeps"
-
+## On Ubuntu:
 or simply set the shortcuts automatically from the `shortcuts.conf` configuration file:
 
     dconf load /org/gnome/settings-daemon/plugins/media-keys/ < shortcuts.conf
@@ -30,20 +25,23 @@ or simply set the shortcuts automatically from the `shortcuts.conf` configuratio
 (this also works, if for some reason the shortcut can not be entered in the settings)
 
 
-#### Example command
+#### Setting Shortcuts in the GUI
+Set the hotkeys under `Settings -> Keyboard Shortcuts -> Add`. 
+Set the command to e.g. 
 
-     firefox https://scholar.google.com &
+    /home/ott/Nextcloud/MyShortcuts/open_chatgpt.sh
 
-or
+Name them e.g. "Firefox open Google Keeps"
 
-    firefox --new-window https://scholar.google.com &
-
-(the & at the end enforces focus to the new window)
-
-
-## Requirements
+#### Requirements
 - to use these, `wmctrl` needs to be installed (`sudo apt install wmctrl`)
 - to use cursor, it is assumed that the AppImage (from the official download) is under `~/bin/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage`
 
-# how to set shortcuts: 
+#### how to set shortcuts: 
 https://chatgpt.com/share/67cec7f1-7720-800e-8169-022cb4affaa5
+
+
+## On Windows:
+Hotkeys can be added to shortcuts. Then the hotkey is stored in the shortcut file. Windows explorer automatically searches for shortcuts with assigned hotkeys in specified folders (Desktop and Start menu folder)
+
+To install the shortcuts, simply copy the `MyWindowsShortcuts` folder to the Start Menu folder `[TODO]`
