@@ -20,3 +20,10 @@ code --folder-uri vscode-remote://attached-container+$(printf "$CONTAINER_ID" | 
 # Start Terminator with the rosdocker layout
 terminator -l rosdocker &
 
+
+# In the future, also automatically unlocking the panda and activating the FCI would be nice (e.g. something like https://github.com/jk-ethz/franka_lock_unlock)
+# can run: src/my_moveit_project/scripts_interactive/franka_lock_unlock.py -u -l -w -p -c -i 172.16.0.2 admin pandabaer!
+
+# could also automatically start ros launch file
+
+
