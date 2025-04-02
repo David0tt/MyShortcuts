@@ -14,7 +14,7 @@ A repository to host useful shortcuts / hotkeys that improve my daily use
 - (`ctrl+shift+alt+e` open Cursor. If it is already open, switch focus)
 - `ctrl+shift+alt+n` open VSCode with the notes workspace. If it is already open, switch focus
 - `ctrl+shift+alt+z` open Zotero. If it is already open, switch focus
-
+- `ctrl+shift+alt+u` Run Startup (terminal with 3 windows in docker, VSCode with notes, VSCode in ROS workspace)
 
 
 ## On Ubuntu:
@@ -36,6 +36,11 @@ Name them e.g. "Firefox open Google Keeps"
 #### Requirements
 - to use these, `wmctrl` needs to be installed (`sudo apt install wmctrl`)
 - to use cursor, it is assumed that the AppImage (from the official download) is under `~/bin/cursor-0.45.14-build-250219jnihavxsz-x86_64.AppImage`
+
+- For Terminator, the config has to be set
+
+    cp terminator_config ~/.config/terminator/config
+
 
 #### how to set shortcuts: 
 https://chatgpt.com/share/67cec7f1-7720-800e-8169-022cb4affaa5
