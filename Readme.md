@@ -41,7 +41,6 @@ Name them e.g. "Firefox open Google Keeps"
 
     cp terminator_config ~/.config/terminator/config
 
-
 #### how to set shortcuts: 
 https://chatgpt.com/share/67cec7f1-7720-800e-8169-022cb4affaa5
 
@@ -49,4 +48,33 @@ https://chatgpt.com/share/67cec7f1-7720-800e-8169-022cb4affaa5
 ## On Windows:
 Hotkeys can be added to shortcuts. Then the hotkey is stored in the shortcut file. Windows explorer automatically searches for shortcuts with assigned hotkeys in specified folders (Desktop and Start menu folder)
 
-To install the shortcuts, simply copy the `MyWindowsShortcuts` folder to the Start Menu folder `[TODO]`
+Install the shortcuts by opening the start-menu folder (Win+R -> "shell:programs" -> Enter) and copy pasting the shortcuts from `MyShortcuts/WindowsShortcuts` (the shortcut properties / directories might need to be modified).
+
+
+### In general, to set up shortcuts on Windows
+- Right-Click Desktop -> New -> Shortcut
+- Location:
+```
+    "C:\Program Files\Mozilla Firefox\firefox.exe" https://www.chatgpt.com 
+```
+- Name it (e.g. `Open ChatGPT`)
+- Right click shortcut -> Properties -> click in Shortcut key field
+- Press Ctrl+Alt+Shift+C
+- Klick OK
+- For tidyness place the shortcut in the start menu:
+- Win+R -> type "shell:programs" -> Enter -> Open Start menu folder -> move the shortcut there
+- Create a similar one to Open VSCode with my Notes (`Ctrl+Alt+Shift+N`):
+```
+    "C:\Program Files\Microsoft VS Code\Code.exe" "C:\Data\NextcloudCS\TODO_Lists_VSCode"
+```
+- Create a similar one to open Google Keep (`Ctrl+Alt+Shift+K`):
+```
+    "C:\Program Files\Mozilla Firefox\firefox.exe" https://keep.google.com
+```
+- Optional: Open powershell with `Ctrl+Alt+T`
+```
+    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+``` 
+
+
+
