@@ -21,8 +21,13 @@ A repository to host useful shortcuts / hotkeys that improve my daily use
 or simply set the shortcuts automatically from the `shortcuts.conf` configuration file:
 
     dconf load /org/gnome/settings-daemon/plugins/media-keys/ < shortcuts.conf
+    # chmod +x *.sh # might be required in this directory on a new system
 
 (this also works, if for some reason the shortcut can not be entered in the settings)
+
+store the keybindings with 
+
+    dconf dump /org/gnome/settings-daemon/plugins/media-keys/
 
 
 #### Setting Shortcuts in the GUI
