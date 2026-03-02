@@ -34,7 +34,7 @@ store the keybindings with
 Set the hotkeys under `Settings -> Keyboard Shortcuts -> Add`. 
 Set the command to e.g. 
 
-    /home/ott/Nextcloud/MyShortcuts/open_chatgpt.sh
+    /home/ott/Nextcloud/MyShortcuts/open_chat.sh
 
 Name them e.g. "Firefox open Google Keeps"
 
